@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html ng-app="mainApp" class="ng-app:mainApp" id="ng-app" xmlns:ng="http://angularjs.org" ng-controller="resource">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title ng-bind="rb.cloud.title">欢迎访问IBM PMC云平台</title>
+
+<link rel="stylesheet" href="css/fonts/awesome/font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" href="css/default/base1.css" type="text/css" />
+<link rel="stylesheet" href="css/default/base-ext.css" type="text/css" />
+
+<link rel="stylesheet" href="css/default/index.css" type="text/css" />
+</head>
+<body >
+	<input id="basePath" type="hidden" value='/pmc_web' />
+	<input id="locale" type="hidden"
+		value='zh_CN' />
+
+
+	<div id="header" class="clearfix" >
+			<div id="logo" class="fn-left">
+				 <a
+						href="/pmc_web/home/">  <img
+							src="images/cds/logo.png?1444701998570" ng-bind="window.title" id="logoimage" height="50" style="margin:5px 10px;" />
+					</a>
+			</div>
+			<div id="top_right">
+				<!-- <div id="loading" ng-show="showLoading">loading...</div>-->
+				
+				<span id="top-meta">
+					<s ng-cloak>你好</s>
+					<a href="/pmc_web/login/">
+					<s ng-cloak>登录</s>
+					</a>
+				</span>|&nbsp;
+				<a href="/pmc_web/register/">
+					<s ng-cloak>注册</s>
+					</a>&nbsp;
+				<!--|&nbsp;<a class="p5"><s>{{rb.link.alttag.help}}</s></a>&nbsp;-->
+				|&nbsp;<a class="pl5" href="">
+				<s ng-cloak>联系我们</s>
+				</a>
+
+				
+			</div>
+	</div>
+
+
+<div class="banner_index" id="banner_box">
+					  <ul class="banner_wrap" id="banner_index">
+					      <li>
+					      		<div class="tp-caption">
+					      			<p class="font16">IBM PMC云计算——为企业而来</p>
+					      			<p class="font12">企业级、开放、助您开拓国际市场</p>
+					      		</div>
+					      		<div class="fn-clear" style="width:1000px;margin:0 auto;">
+					      		<div class="left-caption fn-left">
+					      			<p class="font16">面向中小企业的 IBM 云</p>
+					      			<p class="font12">实现超卓表现，轻松掌控云端</p>
+					      			<br/>
+					      			<br/>
+					      			<p class="font16">步入专家的行列</p>
+					      			<p class="font12">获得协作机能。使业务更简化，安全</p>
+					      		</div>
+					      		<div class="right-caption fn-right">
+					      			<img src="images/activate/atlant_monitor.png" width="373" height="199">
+					      		</div>
+					      		</div>
+					      </li>
+					       </ul>
+</div>
+
+
+<div class="page-content-wrap bg-img-1 page-container">
+
+                    <div class="divider"><div class="box"><span class="fa fa-angle-down"></span></div></div>                    
+                    
+                    <!-- page content holder -->
+                    <div class="page-content-holder fn-clear">
+                        
+                        <div class="row">
+                            <div class="col-md-8 fn-left" data-animate="fadeInLeft">
+                                
+                                <div class="block-heading block-heading-centralized">
+                                    <h2 class="heading-underline">IBM PMC 为企业而来</h2>
+                                    <div class="block-heading-text">
+                                       《财富》500 强企业前 25 家中有 24 家使用了 IBM 云计算。原因何在？<br/>因为，我们可以使您现有的业务和技术发挥更大价值。<br/>
+                                       IBM 云计算，集成了企业级服务，助力您加速企业创新！<br/>
+                                       IBM 云计算，助您拥有一个开放的云，获得更长久的投资回报。
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 fn-right" data-animate="fadeInRight">
+                                <img src="images/activate/home_feature_4_1x.png" class="img-responsive-mobile" width="400">
+                            </div>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                    <!-- ./page content holder -->
+                </div>
+
+<div class="page-content-wrap bg-dark page-container">
+                    
+                    <div class="divider"><div class="box"><span class="fa fa-angle-down"></span></div></div>
+                    
+                    <!-- page content holder -->
+                    <div class="page-content-holder fn-clear">
+                                                
+                        <div class="row">
+                            
+                            <div class="col-md-4">                                
+                                <div class="text-column text-column-centralized tex-column-icon-lg this-animate animated fadeInLeft this-animated" data-animate="fadeInLeft">
+                                    <div class="text-column-icon rocket" >
+                                        <span class="fa fa-rocket"></span>
+                                    </div>
+                                    <h4>超高性能</h4>
+                                    <div class="text-column-info">
+                                        IBM PMC多数据中心、分布式云计算节点，高达10万IOPS的存储性能，云计算能力领先同行2X倍，整体性能因压倒性优势而领先第二名100倍之上。
+                                        
+                                    </div>
+                                </div>                                
+                            </div>
+                            
+                            <div class="col-md-4">                                
+                                <div class="text-column text-column-centralized tex-column-icon-lg this-animate animated fadeInUp this-animated" data-animate="fadeInUp">
+                                    <div class="text-column-icon expand">
+                                        <span class="fa fa-expand"></span>
+                                    </div>
+                                    <h4>弹性计算</h4>
+                                    <div class="text-column-info">
+                                        我们给您提供定制化方案，我们支持您按天计费，随时扩容带宽，快速开通云主机，为您提供随时按需获取的、完全弹性的计算能力，保证您最优的性价比。
+                                    </div>
+                                </div>                                
+                            </div>
+                            
+                            <div class="col-md-4">                                
+                                <div class="text-column text-column-centralized tex-column-icon-lg this-animate animated fadeInRight this-animated" data-animate="fadeInRight">
+                                    <div class="text-column-icon clock">
+                                        <span class="fa fa-clock-o"></span>
+                                    </div>
+                                    <h4>超稳定性</h4>
+                                    <div class="text-column-info">
+                                       我们使用国际水准的硬件设备，五星级机房，不惜牺牲50%以上的存储空间来建立冗余备份的架构，来保证您的数据安全，给您提供超稳定的网络服务。
+                                    </div>
+                                </div>                                
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <!-- ./page content holder -->
+</div>
+
+<div class="page-content-wrap bg-texture-1 page-container">
+                    
+                    <div class="divider"><div class="box"><span class="fa fa-angle-down"></span></div></div>                    
+                    
+                    <!-- page content holder -->
+                    <div class="page-content-holder">                        
+                        
+                        <div class="quote this-animate animated fadeInDown this-animated" data-animate="fadeInDown">
+                            <div class="row fn-clear">
+                                <div class="col-md-9 fn-left">
+                                    <h3><strong>IBM PMC</strong> — 让一切触手可及</h3>
+                                </div>
+                                <div class="col-md-3 fn-right">
+                                    <button class="btn btn-primary btn-block btn-lg">马上体验</button>
+                                </div>
+                            </div>
+                        </div>                        
+                        
+                    </div>
+                    <!-- ./page content holder -->
+ </div>
+ 
+ 
+ 
+
+<div class="footer">
+
+版权所有 © 2014 IBM PMC Cloud.
+
+
+</div>
